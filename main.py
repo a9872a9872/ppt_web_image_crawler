@@ -41,9 +41,9 @@ def crawling(page):
         try:
             main_content = get_html_soup(ptt_host + title.a['href']).find(id='main-content')
             a_tags = main_content.find_all('a', href=re.compile("^https://i.imgur.com"))
-            print(f'download page {page} number {i} image')
             for a in a_tags:
                 download_image(page, a, i)
+                print(f'download page {page} number {i} image')
                 i += 1
         except TypeError:
             continue
