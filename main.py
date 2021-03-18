@@ -46,7 +46,7 @@ def crawling(page):
                 print(f'download page {page} number {i} image')
                 i += 1
         except TypeError:
-            continue
+            pass
 
 
 if __name__ == '__main__':
