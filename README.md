@@ -13,7 +13,7 @@ usage: main.py [-h] [--label LABEL] [--pages PAGES]
 
 optional arguments:
   -h, --help            show this help message and exit
-  --label LABEL, -l LABEL   選擇 PTT 看板 e.g. Food
+  --board Board, -b Board   選擇 PTT 看板 e.g. Food
   --pages PAGES, -p PAGES   設定頁數上限，預設為全部
 ```
 
