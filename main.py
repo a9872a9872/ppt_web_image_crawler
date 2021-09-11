@@ -9,7 +9,7 @@ ptt_host = 'https://www.ptt.cc'
 cookies = {'over18': '1'}
 
 parser = ArgumentParser()
-parser.add_argument('-board', '-b', help="選擇 PTT 看板 ，預設為美食版 e.g. Food", default='Food')
+parser.add_argument('--board', '-b', help="選擇 PTT 看板 ，預設為美食版 e.g. Food", default='Food')
 parser.add_argument('--pages', '-p', help="設定頁數上限，預設為全部 e.g. 10", default=False)
 args = parser.parse_args()
 
