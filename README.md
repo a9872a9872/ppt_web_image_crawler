@@ -19,7 +19,7 @@ optional arguments:
 
 爬取 PTT 美食版所有圖片
 ```
-python main.py --label Food
+python main.py --board Food
 ```
 
 ## 建置 docker & 執行
