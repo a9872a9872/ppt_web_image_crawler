@@ -21,3 +21,10 @@ optional arguments:
 ```
 python main.py --label Food
 ```
+
+## 建置 docker & 執行
+```
+docker build -t my-python-app .
+
+docker run -it --rm -v /where/you/want/to/save:/usr/src/app/img --name my-running-app my-python-app --board Food
+```
