@@ -9,11 +9,11 @@ pip install -r requirement.txt
 ```
 python main.py -h
 
-usage: main.py [-h] [--label LABEL] [--pages PAGES]
+usage: main.py [-h] [--board BOARD] [--pages PAGES]
 
 optional arguments:
   -h, --help            show this help message and exit
-  --board Board, -b Board   選擇 PTT 看板 e.g. Food
+  --board BOARD, -b BOARD   選擇 PTT 看板 e.g. Food
   --pages PAGES, -p PAGES   設定頁數上限，預設為全部
 ```
 
